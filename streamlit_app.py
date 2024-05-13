@@ -56,4 +56,4 @@ if ingredients_list:
 
 #new section to display fruityvice information
 fruityvice_response = rq.get("https://fruityvice.com/api/fruit/watermelon")
-st.text(fruityvice_response)
+st.text(fruityvice_response.json())
